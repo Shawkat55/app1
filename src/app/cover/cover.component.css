@@ -1,0 +1,30 @@
+.container-fluid{
+    display: flex;
+}
+.navbar{
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.home{
+    padding-top: 100px;
+}
+.icon::after{
+    content: "";
+    width: 10%;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: 125px;
+    right: 38%;
+}
+.icon::before{
+    content: "";
+    width: 10%;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: 125px;
+    left: 38%;
+}

@@ -1,0 +1,18 @@
+.icon::after{
+    content: "";
+    width: 10%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 175px;
+    right: 38%;
+}
+.icon::before{
+    content: "";
+    width: 10%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 175px;
+    left: 38%;
+}

@@ -1,0 +1,32 @@
+.Portfolio-layer{
+    background-color: rgba(24, 190, 190, 0.7);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.card:hover .Portfolio-layer{
+    opacity: 1;
+}
+.Portfolio-texts i{
+    font-size: 100px;
+    color: white;
+}
+.icon::after{
+    content: "";
+    width: 10%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 130px;
+    right: 38%;
+}
+.icon::before{
+    content: "";
+    width: 10%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 130px;
+    left: 38%;
+}
